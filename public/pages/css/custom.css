@@ -1,0 +1,41 @@
+.table-responsive{
+    background-color: #ffffff;
+    border: 0px;
+}
+.max-height{
+    max-height: 300px!important;
+    overflow: scroll;
+}
+@media screen and (max-width:767px){
+    .sm-hidden{
+        display: none!important;
+    }
+}
+@media screen and (min-width:768px){
+    .md-hidden{
+        display: none!important;
+    }
+}
+.w-1{
+    width: 1px;
+}
+hr{
+    margin: 0px;
+}
+.table{
+    margin-top: 0px;
+}
+.table-bordered th{
+    border: 1px solid rgba(0, 0, 0, 0.07)!important;
+}
+.loader{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10000000;
+    background-color: #f5f5f5b8;
+}
+.big-icon{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
